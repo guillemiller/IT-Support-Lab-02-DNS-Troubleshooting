@@ -121,11 +121,41 @@ The JoeLearns restoration checklist reached **3/3 completed checks**, and incide
 
 ## 6. Evidence
 
-The screenshots below were captured during the simulated investigation. They document the ticket, DNS findings, audit evidence, application health check, corrective actions, successful name resolution, and incident closure.
+The screenshots below were captured during the simulated investigation and uploaded to the `evidence/` directory. They document the incident from initial report through successful restoration and closure.
 
-| Evidence | Description |
-|---|---|
-| [Incident closed](evidence/incident-closed.jpg) | JoeLearns final result, root cause, corrective action, and successful closure |
+### 01 – Incident ticket
+
+![Incident ticket](evidence/01-incident-ticket.jpg)
+
+### 02 – Client DNS configuration and NXDOMAIN result
+
+![Client DNS configuration and NXDOMAIN result](evidence/02-client-dns-and-nxdomain.jpg)
+
+### 03 – DNS cleanup audit
+
+![DNS cleanup audit](evidence/03-dns-cleanup-audit.jpg)
+
+### 04 – Maintenance change record
+
+![Maintenance change record](evidence/04-maintenance-change-record.jpg)
+
+### 05 – Web application health check
+
+![Web application health check](evidence/05-web-application-health.jpg)
+
+### 06 – Authorized A record restored
+
+![Authorized A record restored](evidence/06-a-record-restored.jpg)
+
+### 07 – Client DNS cache flushed
+
+![Client DNS cache flushed](evidence/07-client-dns-cache-flushed.jpg)
+
+### 08 – Successful nslookup result
+
+![Successful nslookup result](evidence/08-successful-nslookup.jpg)
+
+### 09 – Incident closed
 
 ![Incident closed – JoeLearns Lab](evidence/incident-closed.jpg)
 
