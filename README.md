@@ -125,7 +125,15 @@ The screenshots below were captured during the simulated investigation. They doc
 
 | Evidence | Description |
 |---|---|
-| [Incident closed](evidence/incident-closed.jpg) | JoeLearns final result, root cause, corrective action, and successful closure |
+| [01 – Incident ticket](evidence/01-incident-ticket.jpg) | Initial report and investigation objective |
+| [02 – Client DNS and NXDOMAIN](evidence/02-client-dns-and-nxdomain.jpg) | Authorized DNS client configuration and failed hostname lookup |
+| [03 – DNS cleanup audit](evidence/03-dns-cleanup-audit.jpg) | CHG-7702 deletion evidence and application ownership |
+| [04 – Maintenance change record](evidence/04-maintenance-change-record.jpg) | Maintenance record supporting the investigation |
+| [05 – Web application health](evidence/05-web-application-health.jpg) | WEB-INT01 responding at `192.168.30.45:443` |
+| [06 – A record restored](evidence/06-a-record-restored.jpg) | Authorized internal A record restored |
+| [07 – Client DNS cache flushed](evidence/07-client-dns-cache-flushed.jpg) | Client resolver cache cleared |
+| [08 – Successful nslookup](evidence/08-successful-nslookup.jpg) | Hostname resolves to `192.168.30.45` |
+| [09 – Incident closed](evidence/incident-closed.jpg) | Final incident result and root cause summary |
 
 ![Incident closed – JoeLearns Lab](evidence/incident-closed.jpg)
 
